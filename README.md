@@ -18,6 +18,7 @@
 3. Instalation
 
 ## 👩‍💻Language
+
 <p>This project contains:</p>
 
 <ol>
@@ -28,6 +29,7 @@
 </ol>
 
 ## 📝Proyect instructions
+
 We are going to be creating the Entity Relationship Diagram for Instagram Database, a very similar diagram to this one:
 
 https://raw.githubusercontent.com/breatheco-de/exercise-instagram-data-modeling/master/assets/example.png
@@ -39,3 +41,12 @@ The project is using the SQLAlchemy Python library to generate the database.
 - Please add at least 4 models with all of its properties.
 - Degenerate the diagram.png file at the end by running $ python3 models.py on the console.
 
+## 💻 Instalation
+
+1. Get inside the environment $ pipenv shell
+
+2. Install all dependencies $ pipenv install
+
+3. Generate de diagram as many times as you need $ python src/models.py
+
+4. Open the file diagram.png to check out your UML diagram!
